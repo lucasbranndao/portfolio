@@ -1,0 +1,287 @@
+@use 'variables'
+    
+    
+*
+    font-family: Poppins
+    padding: 0px
+    margin: 0px
+    box-sizing: border-box
+    list-style-type: none
+    background-color: variables.$bg-color
+    color: variables.$text-color
+    
+ 
+body
+    display: flex
+    
+  
+.NavBar
+    
+    display: flex
+    flex-direction: column
+    justify-content: flex-start
+    align-items: center
+    padding: 10px 10px
+    width: 404px
+    
+    
+       
+    .NavBarPersona
+        
+        color: variables.$text-color
+        font-weight: 300px
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-content: center
+       
+    .Persona
+        font-family: Bad Script
+        font-weight: bold
+        font-size: 60px
+        text-decoration: none   
+        color: variables.$primary-color 
+
+            
+
+    .Portfolio
+        color: variables.$secondary-color
+        font-weight: 300
+        font-size: 25px
+
+    
+    .btnItens
+        color: variables.$primary-color
+        text-decoration-line: none
+        display: flex
+        justify-content: center
+        width: 250px
+        height: 40px
+        padding-top: 08px
+        border: 1px solid #CDCED0
+        border-radius: 25px
+        font-size: 20px
+        margin-top: 70px
+        transition: 0.5s
+
+    .btnItens:hover
+        background-color: variables.$hover
+
+    .fa-house:before 
+        content: "\f015"
+        padding-right: 10px
+    .fa-user:before 
+        content:"\f007"
+        padding-right: 10px
+    .fa-code:before 
+        content: "\f121"
+        padding-right: 10px
+    .fa-briefcase:before 
+        content: "\f0b1"
+        padding-right: 10px
+    .fa-comments:before 
+        content: "\f086"
+        padding-right: 10px
+    .fa-whatsapp:before 
+        content: "\f232"
+        padding-right: 10px
+    
+                
+
+
+.listaIcon
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    padding-top: 110px
+  
+
+.listaIcon a
+
+    color: variables.$secondary-color
+    text-decoration: none
+    padding-inline: 17px
+
+.Conteudo
+    display: flex
+    flex-direction: row
+    padding-left: 50px
+    padding-top: 250px    
+
+.ApresentaçãoPersona
+    display: flex
+    flex-direction: column
+    align-content: center
+    
+    .PersonaQuem
+        display: flex
+        color: variables.$text-color
+        font-size: 20px
+    
+    .PersonaSou  
+        font-family: Bad Script
+        font-weight: 400
+        font-size: 60px
+        text-decoration: none
+        color: variables.$secondary-color
+    
+    .PersonaInfo 
+        color: variables.$text-color
+        font-size: 20px
+        width: 800px
+
+.ImagemHome
+    display: flex
+    width: 700px
+    height: 950px
+    background-image: url("../img/devPC.png")
+    background-repeat: no-repeat
+    background-size: 700px
+    margin-top: -100px
+
+.ApresentaçãoBtnContato
+        margin-top: 150px
+
+.ApresentaçãoBtnContato a   
+    text-decoration: none
+    color: variables.$primary-color
+    font-size: 20px
+    border: 1px solid #fff
+    border-radius: 25px
+    padding: 10px
+
+.ApresentaçãoBtnContato a:hover
+    background-color: variables.$hover
+
+//   PAGE SOBRE
+
+.ConteudoSobre
+    display: flex
+    flex-direction: column
+    margin-top: -150px
+    
+
+.titulo
+    color: variables.$secondary-color
+    font-family: Bad Script
+    font-weight: 400
+    font-size: 60px
+
+.PersonaInfo 
+    color: variables.$text-color
+    font-size: 20px
+    width: 800px
+    
+
+
+.fotopessoal
+    display: flex
+    height: 550px
+    background-image: url("../img/profile-pic.png")
+    background-repeat: no-repeat
+    margin-top: -100px   
+
+//  PAGE SKILL
+
+.ConteudoSkill
+    display: flex
+    flex-direction: column
+    margin-top: -150px
+    
+h1
+    color: variables.$secondary-color
+    font-family: Bad Script
+    font-weight: 400
+    font-size: 60px
+.Container
+    display: flex
+    flex-direction: row
+    padding-top: 20px
+.SkillPic
+    display: flex
+    align-content: space-between
+    flex-direction: row
+    align-items: center
+    padding-top: 80px
+    
+    
+    .Skillimg1
+        width: 200px
+        // height: 150px
+        background-repeat: no-repeat
+        padding-left: 50px
+
+    .Skillimg2
+        width: 200px
+        // height: 150px
+        background-repeat: no-repeat
+        padding-left: 50px
+
+    .Skillimg3
+        width: 200px
+        // height: 150px
+        background-repeat: no-repeat
+        padding-left: 50px
+.ConteudoSkill p
+        margin-top: 250px    
+        font-size: 20px
+
+// PAGE PORTFOLIO
+
+.ConteudoPort
+    display: flex
+    flex-direction: column
+    margin-top: -150px
+
+.card 
+  width: 400px
+  height: 400px
+  box-shadow: 0 8px 16px 0 variables.$hover
+  transition: 0.3s
+    .card:hover 
+    box-shadow: 0 8px 16px 0 #ff0404
+
+.CardImg
+    width: 100%
+    
+
+.card
+    display: flex
+    margin-right: 20px
+.container 
+    
+    padding: 5px 10px
+    
+
+    .CardTitulo
+        color: variables.$text-color
+        text-align: center
+        font-size: 30px
+    .CardDescricao
+        color: variables.$text-color
+        text-align: center
+        font-size: 15px
+            
+.CardDescricao
+    color: variables.$text-color
+    font-size: 15px
+
+.btn 
+    background-color: variables.$secondary-color
+    color: variables.$primary-color
+    text-decoration: none
+    text-transform: uppercase
+    margin-top: 25px
+    padding: 14px 28px
+    font-size: 16px
+    cursor: pointer
+    display: inline-block
+    border-radius: 25px
+    
+
+.btn:hover 
+    background: variables.$hover
+
+
+
+    
