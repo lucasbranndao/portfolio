@@ -6,6 +6,3 @@ Desculpe a bagunça no codigo, ainda estou em fase de aprendizado e adquirindo b
 
 Aguardem as melhorias e seguimos estudando, qualquer dica ou duvidas estou à disposição
 Whastapp: 62998684030
-
-
-
